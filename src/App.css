@@ -1,0 +1,8 @@
+.container {
+  border: 2px dashed rgba(91, 152, 202, 0.2);
+  margin: 30px 100px;
+  height: 100%;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
