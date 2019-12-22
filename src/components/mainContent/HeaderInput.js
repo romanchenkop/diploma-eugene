@@ -9,6 +9,11 @@ const useStyles = makeStyles({
       width: 400,
     },
   },
+  label: {
+    marginLeft: '-215px',
+    marginTop: '31px',
+    position: 'absolute',
+  },
 })
 
 export default function HeaderInput() {
@@ -16,13 +21,13 @@ export default function HeaderInput() {
   return (
     <div>
       <form className={classes.root} noValidate autoComplete="off">
+        <span className={classes.label}>1. </span>
         <TextField
           className={classes.input}
           color={'secondary'}
           size={'small'}
           id="outlined-basic"
-          label="1"
-          variant="outlined"
+          variant="standard"
         />
       </form>
     </div>

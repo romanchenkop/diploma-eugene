@@ -7,6 +7,7 @@ import AppBarMenu from './components/header/AppBar'
 import HeaderInput from './components/mainContent/HeaderInput'
 import Divider from '@material-ui/core/Divider'
 import { makeStyles } from '@material-ui/core/styles'
+import ValuesInput from './components/mainContent/ValuesInput'
 
 const useStyles = makeStyles({
   divider: {
@@ -26,6 +27,7 @@ function App() {
       <div className="container">
         <HeaderInput />
         <Divider className={classes.divider} variant="middle" />
+        <ValuesInput />
       </div>
     </div>
   )
