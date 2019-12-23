@@ -5,13 +5,13 @@ import { makeStyles } from '@material-ui/core/styles'
 const useStyles = makeStyles({
   root: {
     '& > *': {
-      marginTop: 20,
+      marginTop: 5,
       width: 400,
     },
   },
   label: {
     marginLeft: '-215px',
-    marginTop: '31px',
+    marginTop: '16px',
     position: 'absolute',
   },
 })

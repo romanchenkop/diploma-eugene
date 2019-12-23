@@ -6,7 +6,7 @@ import 'typeface-roboto'
 
 const useStyles = makeStyles({
   input: {
-    width: '50px',
+    width: '29px',
     // marginLeft: '50px',
     marginTop: '10px',
   },
@@ -39,7 +39,7 @@ const ValuesInput = () => {
           className={classes.input}
           size="small"
           id="standard-number"
-          type="number"
+          type="standard"
           variant="standard"
         />
       </div>
@@ -51,12 +51,12 @@ const ValuesInput = () => {
           className={classes.input}
           size="small"
           id="standard-number"
-          type="number"
+          type="standard"
           variant="standard"
         />
       </div>
       <div style={{ marginTop: '14px', marginRight: '11px' }}>
-        <Button size="small" color="primary">
+        <Button size="small" color="secondary" variant={'contained'}>
           OK
         </Button>
       </div>
