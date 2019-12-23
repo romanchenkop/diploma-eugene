@@ -41,11 +41,11 @@ export default function AppBarMenu() {
           </IconButton>
           <Toolbar className={classes.infoBar}>
             <Button edge={'end'} color="inherit">
-              Аналитический модуль
+              Аналітичний модуль
             </Button>
-            <Button color="inherit">Мои данные</Button>
+            <Button color="inherit">Мої дані</Button>
             <Button edge={'end'} color="inherit">
-              Аккаунт
+              Акаунт
             </Button>
           </Toolbar>
         </Toolbar>
